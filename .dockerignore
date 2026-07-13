@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+
+# Large folders we don't want to copy
+faiss/
+faiss.git/
+
+# Git and IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Archives and temp files
+*.tar.gz
+*.zip
+*.faiss
+*.log
+.DS_Store
+Thumbs.db
