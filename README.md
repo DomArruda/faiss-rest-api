@@ -66,7 +66,7 @@ curl -X POST http://localhost:8080/indices \
   -d '{
     "name": "demo",
     "dimension": 128,
-    "description": "HNSW32",           # Any valid index_factory string
+    "description": "HNSW32",           
     "metric_type": "L2"
   }'
 ```
